@@ -1,0 +1,218 @@
+.check0{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#login{
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    border: none;
+    padding: 0 2rem;
+    color: #000;
+    letter-spacing: 0;
+    font-size: 16px;
+    font-weight: 600;
+    height: 40px;
+    line-height: 40px;
+    width: auto;
+    background: transparent;
+}
+.trip1{
+    padding:10px;
+    background-color:#FA4A5B ;
+    color:white;
+}
+.trip{
+    display: flex;
+    flex-direction: column;
+}
+#signup{
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    border: none;
+    padding: 0 2rem;
+    letter-spacing: 0;
+    color: #fff;
+    background-color: #000;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 12%);
+    font-size: 16px;
+    font-weight: 600;
+    height: 40px;
+    line-height: 40px;
+    width: auto;
+}
+.attr{
+    font-size: 24px;
+    font-weight: 300;
+    width: 600px;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+    letter-spacing: -.3px;
+    color: #686b78;
+}
+.chin{
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+.chinu{
+    height: 57px;
+    line-height: 28px;
+    padding-top: 0;
+    padding-left: 15px;
+    padding-right: 160px;
+    font-size: 18px;
+    font-weight: 500;
+    width:500px;
+    border-top:1px solid #BEBFC5;
+    border-left:1px solid #e0e3f1;
+    border-bottom:1px solid #BEBFC5;
+    border-right:none;
+}
+#changing{
+    color: #fff;
+    background-color: #fc8019;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    border: none;
+    height: 60px;
+    line-height: 60px;
+    width: 250px;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: .53px;
+    padding: 0;
+}
+input:focus{
+    caret-color: #fc8019;
+    outline:none;
+    border-top:1px solid #fc8019;
+    border-left:1px solid #fc8019;
+    border-bottom:1px solid #fc8019;
+}
+.left{
+    padding: 25px 25px 25px 35px;
+    width: 550px;
+}
+.right{
+width: 630px;
+height: 100%;
+position: absolute;
+right: 0;
+top: 0;
+}
+.split{
+position: relative;
+}
+.hing{
+    display: flex;
+    flex-wrap: wrap;
+}
+#pose{
+    position: absolute;
+    font-size: 14px;
+    border-radius: 5px;
+    right: 150px;
+    border: none;
+    top: 5px;
+    height: 50px;
+    cursor: pointer;
+    background: transparent;
+    color:#535665;
+}
+#pose:hover{
+    background: rgba(211, 211, 211, 0.945);
+}
+.check{
+    display: flex;
+    margin-top:25px ;
+}
+.check1{
+    display: flex;
+    gap:10px;
+    list-style-type: none;
+    padding: 0px;
+}
+.check1 a{
+ text-decoration: none;
+
+}
+@media only screen and (max-width: 1290px)
+{
+    .left{
+        z-index: 1;
+    }
+    .right{
+        opacity:0.5;
+        z-index: -1;
+    }
+
+}
+@media only screen and (max-width: 700px)
+{
+    .trip{
+        width: 310px;
+    }
+    .chinu{
+        height: 57px;
+        line-height: 28px;
+        padding-top: 0;
+        padding-left: 15px;
+        padding-right: 10px;
+        font-size: 13px;
+        font-weight: 500;
+        width:160px;
+        border-top:1px solid #BEBFC5;
+        border-left:1px solid #e0e3f1;
+        border-bottom:1px solid #BEBFC5;
+        border-right:none;
+    }
+  #changing{
+    color: #fff;
+    background-color: #fc8019;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    border: none;
+    height: 60px;
+    line-height: 60px;
+    width: 150px;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: .53px;
+    padding: 0;
+  }
+  #pose{
+      visibility: hidden;
+  }
+
+  .attr{
+    font-size: 17px;
+    font-weight: 300;
+    width: 200px;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+    letter-spacing: -.3px;
+    color: #686b78;
+}
+.left{
+    padding: 25px 25px 25px 25px;
+    width: 300px;
+}
+}
+
+
+/* li:nth-child(even){
+    text-decoration: none;
+    color:blue !important
+}
+li:nth-child(3){
+    text-decoration: none;
+    color: grey !important;
+}  */
