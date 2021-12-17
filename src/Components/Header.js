@@ -1,5 +1,6 @@
 import react,{useState,useEffect} from "react";
-import './Header.css'
+import './Header.css';
+import Animation from "./Animation";
 var div=document.createElement("div")
 function check(){
     var divi=document.getElementById("appending")
@@ -46,30 +47,31 @@ function help(){
          <div><button id="signup">Sign up</button></div>
      </div>
      </div>
-     <div><h1 className="chin">{change}</h1></div>
-     <div><h2 class="attr">Order food from favourite restaurants near you.</h2></div>
-
+     {/* <div><h1 className="chin">{change}</h1></div> */}
+     {/* <div><h2 class="attr">Order food from favourite restaurants near you.</h2></div> */}
+      <Animation/>
      <div className="trip" id="appending">
-     <div className="check" >
+     <div className="check">
      <input className="chinu" id="inputt" type="text" placeholder="Enter your delivery location"/>
-     <button id="pose"><i class="far fa-location"/> Locate Me</button>
+     <button className="posey"><i class="far fa-location"/> Locate Me</button>
      <button onClick={check} id="changing">FIND FOOD</button>
      </div>
      </div>
  
      <div>
      <h3>POPULAR CITIES IN INDIA</h3>
-     <ul className="check1">
-     <li><a href="#">hello</a></li>
-     <li><a href="#">hello</a></li>
-     <li><a href="#">hello</a></li>
-     <li><a href="#">hello</a></li>
-     <li><a href="#">hello</a></li>
-     <li><a href="#">hello</a></li>
-     <li><a href="#">hello</a></li>
-
- 
-     </ul>
+     <div style={{ paddingRight: "15px" }} className="popular alterflex">
+          <div>Ahemdabad</div>
+          <div>Bangalore</div>
+          <div>Chennai</div>
+          <div> Delhi</div>
+          <div>Gurgaon</div>
+          <div> Hydreabad</div>
+          <div>Kolkata</div>
+          <div> Mumbai</div>
+          <div> Pune &</div>
+          <div> more.</div>
+        </div>
      </div>
      </div>
 

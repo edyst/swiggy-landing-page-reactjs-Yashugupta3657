@@ -113,18 +113,18 @@ position: relative;
     display: flex;
     flex-wrap: wrap;
 }
-#pose{
-    position: absolute;
-    font-size: 14px;
-    border-radius: 5px;
-    right: 150px;
-    border: none;
-    top: 5px;
-    height: 50px;
-    cursor: pointer;
-    background: transparent;
-    color:#535665;
+.posey{
+        position: absolute;
+        top:378px;
+        left:350px;
+        background-color: transparent;
+        padding:10px;
+        font-weight: lighter;
+        color:#6D707D;
+        border:none;
+    
 }
+
 #pose:hover{
     background: rgba(211, 211, 211, 0.945);
 }
